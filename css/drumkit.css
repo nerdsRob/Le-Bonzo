@@ -1,34 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 
-body {
-	/* font-family: 'Julius Sans One', sans-serif;*/
-	font-family: 'Six Caps', sans-serif;
-	font-size: 70px;
-	color: #eee;
-	background-color: #3b3774;
-}
-
-.iframe {
-	width: 500px;
-	height: 280px;
-	position: absolute;
-}
-
-#header {
-	margin: 100px auto;
-	width: 400px;
-	height: 50px;
-	text-align: center;
-}
-
-.underline {
-	margin: 0 auto;
-	width: 110px;
-	height: 7px;
-	background-color: #eee;
-	display: block;
-}
-
 #drumkit {
 	width: 400px;
 	height: 320px;
@@ -49,7 +20,7 @@ body {
 #kick-rim {
    width: 280px;
    height: 280px;
-   background: #22284f; 
+   background: #df6802; 
    -moz-border-radius: 280px; 
    -webkit-border-radius: 280px; 
    border-radius: 280px;
@@ -57,26 +28,85 @@ body {
    position: absolute;
 }
 
-#kick-hole {
-   width: 70px;
-   height: 70px;
-   background: #0e112a; 
-   margin: 180px 160px;
-   -moz-border-radius: 40px; 
-   -webkit-border-radius: 40px; 
-   border-radius: 40px;
-   position: absolute;
+#kick-rim > .emblem {
+	text-align: center;
+	margin: 2px auto;
+	font-size: 60px;
+	width: 150px;
+	height: auto;
+	display: block;
 }
 
-#kick-hole-rim {
-   width: 55px;
-   height: 55px;
-   background: #3b3774; 
-   margin: 188px 167px;
-   -moz-border-radius: 30px; 
-   -webkit-border-radius: 30px; 
-   border-radius: 30px;
+.kick-hole-right {
+   width: 110px;
+   height: 110px;
+   background: #0e112a; 
+   margin: 150px 140px;
+   -moz-border-radius: 110px; 
+   -webkit-border-radius: 110px; 
+   border-radius: 110px;
    position: absolute;
+   -webkit-opacity: 0.6;
+}
+
+.kick-hole-right-rim {
+   width: 95px;
+   height: 95px;
+   background: #df6802; 
+   margin: 158px 147px;
+   -moz-border-radius: 95px; 
+   -webkit-border-radius: 95px; 
+   border-radius: 95px;
+   position: absolute;
+   -webkit-opacity: 0.6;
+}
+
+.kick-hole-left {
+   width: 110px;
+   height: 110px;
+   background: #0e112a; 
+   margin: 150px 60px;
+   -moz-border-radius: 110px; 
+   -webkit-border-radius: 110px; 
+   border-radius: 110px;
+   position: absolute;
+   -webkit-opacity: 0.6;
+}
+
+.kick-hole-left-rim {
+   width: 95px;
+   height: 95px;
+   background: #df6802; 
+   margin: 158px 67px;
+   -moz-border-radius: 95px; 
+   -webkit-border-radius: 95px; 
+   border-radius: 95px;
+   position: absolute;
+   -webkit-opacity: 0.6;
+}
+
+.kick-hole-top {
+   width: 110px;
+   height: 110px;
+   background: #0e112a; 
+   margin: 100px 98px;
+   -moz-border-radius: 110px; 
+   -webkit-border-radius: 110px; 
+   border-radius: 110px;
+   position: absolute;
+   -webkit-opacity: 0.8;
+}
+
+.kick-hole-top-rim {
+   width: 95px;
+   height: 95px;
+   background: #df6802; 
+   margin: 108px 105px;
+   -moz-border-radius: 95px; 
+   -webkit-border-radius: 95px; 
+   border-radius: 95px;
+   position: absolute;
+   -webkit-opacity: 0.6;
 }
 
 #kick-stand-left {
